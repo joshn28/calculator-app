@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  background: none;
+  border: 0.1em solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+input[type=number] {
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.reset-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.operator-btn {
+  background-color: #e7e7e7;
+}
